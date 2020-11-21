@@ -1,0 +1,27 @@
+<h2>int8_t - 符号付8bit整数型</h2>
+
+「int8_t」は符号付8bit整数型です。「stdint.h」をインクルードすることで使えます。
+
+<pre>
+# 符号付8bit整数型
+int8_t
+</pre>
+
+符号付8bit整数型が表現できる整数の最大値は「127」、最小値は「-128」です。
+
+最大値は「INT8_MAX」、最小値は「INT8_MIN」というマクロで定義されています。
+
+<h3>int8_tのサンプルコード</h3>
+
+int8_tを使ったサンプルコードです。
+
+<pre>
+#include <stdio.h>
+#include <stdint.h>
+
+int main() {
+  int8_t num = 5;
+  
+  printf("%d\n", num);
+}
+</pre>
