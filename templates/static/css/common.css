@@ -231,6 +231,7 @@
   }
   .side-list {
     box-shadow: 0 0 3px rgba(0,0,0,.1);
+    margin-bottom:30px;
   }
   .side-list-title {
     background:#009D82;
